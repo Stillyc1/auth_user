@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "auth-user"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+packages = [{ include = "auth_user" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+fastapi = "^0.120.0"
+uvicorn = {extras = ["standard"], version = "^0.38.0"}
+pydantic = {extras = ["email"], version = "^2.12.3"}
+pydantic-settings = "^2.11.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.44"}
+asyncpg = "^0.30.0"
+alembic = "^1.17.0"
+passlib = "^1.7.4"
+bcrypt = "^5.0.0"
+python-jose = "^3.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
