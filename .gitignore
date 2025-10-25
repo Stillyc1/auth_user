@@ -129,7 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+auth-user/.env
 # Spyder project settings
 .spyderproject
 .spyproject
